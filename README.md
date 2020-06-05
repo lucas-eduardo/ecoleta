@@ -52,7 +52,7 @@ Os usuários terão acesso ao aplicativo móvel, onde poderão:
 - navegar pelo mapa para ver as instituições cadastradas
 - entrar em contato com a entidade através do E-mail ou do WhatsApp
 
-Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat](rs).
+Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat][rc].
 
 ---
 
@@ -133,7 +133,7 @@ $ cd server
 $ yarn install
 
 # Execute a aplicação em modo de desenvolvimento
-$ yarn dev:server
+$ yarn dev
 
 # O servidor inciará na porta:3333 - acesse http://localhost:3333 
 ```
@@ -188,4 +188,4 @@ $ yarn start
 [yarn]: https://yarnpkg.com/
 [vscode]: https://code.visualstudio.com/
 [license]: https://opensource.org/licenses/MIT
-[rs]: https://rocketseat.com.br
+[rc]: https://rocketseat.com.br
