@@ -18,8 +18,8 @@ const Modal: React.FC<ModalProps> = ({ openModal, setOpenModal }) => {
           top: 0,
           behavior: 'smooth',
         });
-        body.style.overflow = 'hidden'
-      };
+        body.style.overflow = 'hidden';
+      }
 
       setTimeout(() => {
         setOpenModal(false);
@@ -30,13 +30,13 @@ const Modal: React.FC<ModalProps> = ({ openModal, setOpenModal }) => {
   }, [openModal, setOpenModal]);
 
   return (
-    <div className={openModal? 'modal' : 'modal-hidden'}>
+    <div className={openModal ? 'modal' : 'modal-hidden'}>
       <main>
         <FiCheckCircle />
         <h1>Cadastro concluído</h1>
       </main>
     </div>
-  )
+  );
 };
 
 export default Modal;
