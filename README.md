@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center"> 
-	:construction: NextLevelWeek 1.0 🚀 In progress.. :construction:
+	NextLevelWeek 1.0 🚀
 </h4>
 
 <p align="center">
